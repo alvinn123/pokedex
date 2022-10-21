@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(images/umbreon-pokemon-minimal-4k-b8.jpg) no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: Poppins;
+}
+#title-elem {
+  letter-spacing: 3px;
+  color: white;
+  text-shadow: 5px 2px 4px #00b7ff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.poke-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 600px;
+  border: black solid 5px;
+  text-align: center;
+  background-color: aliceblue;
+  opacity: 90%;
+}
+#image-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  width: 400px;
+  height: 250px;
+  border: black solid 3px;
+}
+#poke-desc {
+  width: 400px;
+  height: 100px;
+  margin-top: 3px;
+  border: black solid 3px;
+  background-color: white;
+}
+#poke-pic {
+  width: 200px;
+  height: 200px;
+}
+/* Found some button CSS styles on google for this specific button layout */
+button {
+  display: inline-block;
+  outline: 0;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 0;
+  color: #fff;
+  font-size: 15px;
+  border: 2px solid transparent;
+  border-color: #000;
+  color: #000;
+  background: transparent;
+  font-weight: 800;
+  line-height: 20px;
+  transition: background, color 0.1s ease-in-out;
+}
+.button-container {
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
