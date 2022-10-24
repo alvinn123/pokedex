@@ -18,6 +18,9 @@ body {
   margin: 0;
   font-family: Poppins;
 }
+#content-container {
+  margin-top: 1em;
+}
 #title-elem {
   letter-spacing: 3px;
   color: white;
@@ -35,6 +38,28 @@ body {
   text-align: center;
   background-color: aliceblue;
   opacity: 90%;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#search-bar {
+  width: 300px;
+  text-align: center;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5em;
+  margin-top: 1em;
+}
+.fa-search {
+  margin-top: 0.9em;
+  font-size: medium;
+}
+.fa-search:hover {
+  cursor: pointer;
+  opacity: 50%;
+  color: blue;
 }
 #image-screen {
   display: flex;
@@ -72,7 +97,7 @@ body {
   height: 200px;
 }
 /* Found some button CSS styles on google for this specific button layout */
-button {
+.button-container button {
   display: inline-block;
   outline: 0;
   text-align: center;
